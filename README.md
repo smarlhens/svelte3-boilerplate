@@ -1,3 +1,22 @@
+# Svelte 3 - Boilerplate
+
+[![GitHub CI](https://github.com/smarlhens/svelte3-boilerplate/workflows/CI/badge.svg)](https://github.com/smarlhens/svelte3-boilerplate/actions?query=workflow%3ACI)
+[![CircleCI](https://circleci.com/gh/smarlhens/svelte3-boilerplate.svg?style=svg)](https://circleci.com/gh/smarlhens/svelte3-boilerplate)
+[![Build Status](https://travis-ci.com/smarlhens/svelte3-boilerplate.svg?branch=master)](https://travis-ci.com/smarlhens/svelte3-boilerplate)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![GitHub issues](https://img.shields.io/github/issues/smarlhens/svelte3-boilerplate)](https://github.com/smarlhens/svelte3-boilerplate/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/smarlhens/svelte3-boilerplate)](https://github.com/smarlhens/svelte3-boilerplate/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/smarlhens/svelte3-boilerplate)](https://github.com/smarlhens/svelte3-boilerplate/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/smarlhens/svelte3-boilerplate)](https://github.com/smarlhens/svelte3-boilerplate/network)
+[![GitHub contributors](https://img.shields.io/github/contributors/smarlhens/svelte3-boilerplate)](https://github.com/smarlhens/svelte3-boilerplate/graphs/contributors)
+[![GitHub license](https://img.shields.io/github/license/smarlhens/svelte3-boilerplate)](https://github.com/smarlhens/svelte3-boilerplate)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/smarlhens/svelte3-boilerplate)
+![GitHub repo size](https://img.shields.io/github/repo-size/smarlhens/svelte3-boilerplate)
+[![HitCount](http://hits.dwyl.io/smarlhens/svelte3-boilerplate.svg)](http://hits.dwyl.io/smarlhens/svelte3-boilerplate)
+
+
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
@@ -35,10 +54,7 @@ Navigate to [localhost:5000](http://localhost:5000). You should see your app run
 
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
 
-<<<<<<< HEAD
-=======
 If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
->>>>>>> template/master
 
 ## Building and running in production mode
 
@@ -61,17 +77,6 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 "start": "sirv public --single"
 ```
 
-<<<<<<< HEAD
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-=======
 ## Using TypeScript
 
 This template comes with a script to set up a TypeScript development environment, you can run it immediately after cloning the template with:
@@ -94,24 +99,15 @@ Install `vercel` if you haven't already:
 
 ```bash
 npm install -g vercel
->>>>>>> template/master
 ```
 
 Then, from within your project folder:
 
 ```bash
 cd public
-<<<<<<< HEAD
-now deploy --name my-project
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-=======
 vercel deploy --name my-project
 ```
 
->>>>>>> template/master
 ### With [surge](https://surge.sh/)
 
 Install `surge` if you haven't already:
