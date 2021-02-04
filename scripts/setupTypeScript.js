@@ -5,7 +5,7 @@
   <script lang="ts">
   	export let name: string;
   </script>
- 
+
   As well as validating the code for CI.
   */
 
@@ -66,7 +66,10 @@ import typescript from '@rollup/plugin-typescript';`
 rollupConfig = rollupConfig.replace(`'src/main.js'`, `'src/main.ts'`);
 
 // Add preprocessor
-rollupConfig = rollupConfig.replace('compilerOptions:', 'preprocess: sveltePreprocess(),\n\t\t\tcompilerOptions:');
+rollupConfig = rollupConfig.replace(
+  'compilerOptions:',
+  'preprocess: sveltePreprocess({ sourceMap: !production }),\n\t\t\tcompilerOptions:'
+);
 
 // Add TypeScript
 rollupConfig = rollupConfig.replace(
