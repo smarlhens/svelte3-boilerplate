@@ -14,7 +14,6 @@
 [![GitHub license](https://img.shields.io/github/license/smarlhens/svelte3-boilerplate)](https://github.com/smarlhens/svelte3-boilerplate)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/smarlhens/svelte3-boilerplate)
 ![GitHub repo size](https://img.shields.io/github/repo-size/smarlhens/svelte3-boilerplate)
-[![HitCount](http://hits.dwyl.io/smarlhens/svelte3-boilerplate.svg)](http://hits.dwyl.io/smarlhens/svelte3-boilerplate)
 
 
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
