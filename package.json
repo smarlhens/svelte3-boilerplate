@@ -1,11 +1,12 @@
 {
   "name": "svelte-app",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "build": "rollup -c",
     "autobuild": "rollup -c -w",
     "dev": "run-p start:dev autobuild",
-    "start": "sirv public",
+    "start": "sirv public --no-clear",
     "start:dev": "sirv public --dev",
     "eslint:check": "eslint . --ext .svelte",
     "eslint:fix": "npm run eslint:check -- --fix",
