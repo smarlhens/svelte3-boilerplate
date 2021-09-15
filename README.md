@@ -15,7 +15,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/smarlhens/svelte3-boilerplate)
 ![GitHub repo size](https://img.shields.io/github/repo-size/smarlhens/svelte3-boilerplate)
 
-_Psst — looking for a more complete solution? Check out [SvelteKit](kit.svelte.dev), the official framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing._
+_Psst — looking for a more complete solution? Check out [SvelteKit](https://kit.svelte.dev), the official framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing._
 
 _Looking for a shareable component template instead? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)_
 
